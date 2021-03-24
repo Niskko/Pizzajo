@@ -369,7 +369,7 @@ color: #242424 !important;
 	color: #EB233C;
 	padding-right: 10px;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 50px;
 }
 .email {
 	padding-top: 15px;
@@ -388,7 +388,7 @@ footer ul.quicklinks {
 	margin-bottom: 0px;
 }
 footer ul.quicklinks a {
-	color: #EB233C;
+	color: #fff;
 	line-height: 40px;
 	text-decoration: none;
 }
