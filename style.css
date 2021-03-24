@@ -44,7 +44,7 @@ a {
 }
 .bg-overlay {
 	/*padding: 280px 0 220px;*/
-	padding: 505px 0 220px;
+	padding: 20% 0 20%;
 	background-color: RGBA(15, 5, 20, 0.84);
 }
 .banner-text h2 {
