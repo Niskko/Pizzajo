@@ -373,6 +373,8 @@ color: #242424 !important;
 }
 .email {
 	padding-top: 15px;
+	font-size: 50px;
+	font-family: 'Oleo Script Swash Caps', cursive;
 }
 footer {
 	padding: 25px 0;
