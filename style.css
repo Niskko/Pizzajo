@@ -24,10 +24,10 @@ a {
 	color: #EB233C;
 }
 .navbar-toggle {
-	background-color: #fff;
+	background-color: rgb(255, 255, 255, 0);
 }
 .navbar-toggle .icon-bar {
-	background-color: RGBA(0, 0, 0, 0.48);
+	background-color: rgba(255, 255, 255, 0.9);
 }
 .banner {
 	background-attachment: fixed;
