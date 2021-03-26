@@ -448,7 +448,7 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	height: 200%;
 }
 }
-@media (min-width:600px) and (max-width: 1000px) {
+@media (min-width:600px) and (max-width: 900px) {
 .map {
 	width: 100%;
 	height: 100%;
