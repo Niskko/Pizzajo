@@ -29,6 +29,11 @@ a {
 .navbar-toggle .icon-bar {
 	background-color: rgba(255, 255, 255, 0.9);
 }
+.logo {
+	width: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 .banner {
 	background-attachment: fixed;
 	background-color: #645862;
@@ -391,7 +396,7 @@ footer span.copyright {
 	text-transform: none;
 }
 footer ul.quicklinks {
-	color: #fff
+	color: #fff;
 	margin-bottom: 0px;
 }
 footer ul.quicklinks a {
@@ -442,7 +447,10 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 }
 .email i {
 	font-size: 30px;
-	}
+}
+.logo {
+	display: none;
+}
 .map {
 	width: 100%;
 	height: 200%;
@@ -455,5 +463,8 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 }
 .address {
 	margin-top: 50px;
+}
+.logo {
+	display: none;
 }
 }
