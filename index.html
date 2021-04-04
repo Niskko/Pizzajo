@@ -29,7 +29,6 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <div class="main-header" id="main-header">
   <nav class="navbar mynav navbar-fixed-top">
-    <img class="logo navbar-fixed-top" src="images/logo.png">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
@@ -39,8 +38,9 @@
           <li class="active"><a href="#Acceuil">Acceuil</a></li>
           <li><a href="#Pizzeria">Pizzeria</a></li>
           <li><a href="#Avis">Avis</a></li>
+          <li><a href="#Horaires">Horaires</a></li>
           <li><a href="#Histoire">Histoire</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Contact">Contact</a></li> 
         </ul>
       </div>
     </div>
@@ -139,21 +139,56 @@
     </div>
   </div>
 </div>
-<div class="call-to-action">
+
+<!--Horaires-->
+<div class="call-to-action" id="Horaires">
   <div class="call-overlay">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-10">
-          <div class="subscribe-text">
-            <h3>Subscribe For Updates</h3>
-            <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
-          </div>
+      <div class=clock>
+            <h3 class="text-left">Les Horaires</h3>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Lundi</td>
+                  <td></td>
+                  <td>Fermé</td>
+                </tr>
+                <tr>
+                  <td>Mardi</td>
+                  <td></td>
+                  <td>Fermé</td>
+                </tr>
+                <tr>
+                  <td>Mercredi</td>
+                  <td></td>
+                  <td>18h - 21h</td>
+                </tr>
+                <tr>
+                  <td>Jeudi</td>
+                  <td>11h - 13h</td>
+                  <td>18h - 21h</td>
+                </tr>
+                <tr>
+                  <td>Vendredi</td>
+                  <td>11h - 13h</td>
+                  <td>18h - 22h30</td>
+                </tr>
+                <tr>
+                  <td>Samedi</td>
+                  <td>11h - 14h</td>
+                  <td>18h - 22h30</td>
+                </tr>
+                <tr>
+                  <td>Dimanche</td>
+                  <td></td>
+                  <td>18h - 22h</td>
+                </tr>
+              </tbody>
+          </table>
         </div>
-        <div class="col-md-4 text-center"> <a href="#" class="subscribe-button">Subscribe Now</a> </div>
-      </div>
-    </div>
   </div>
 </div>
+
+<!--Histoire-->
 <div class="about" id="Histoire">
   <div class="container">
     <div class="row">
@@ -186,6 +221,8 @@
     </div>
   </div>
 </div>
+
+<!--Contact-->
 <div class="contact" id="Contact">
   <div class="container">
     <div class="row">
