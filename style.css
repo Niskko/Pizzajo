@@ -216,6 +216,11 @@ a {
 .owl-theme .owl-controls .owl-page span {
 	background-color: #EB233C !important;
 }
+.imgMoustache{
+	margin-left:200px;
+	width: 32%;
+	height: 32%;
+}
 /*-----Testimonials Ends-------*/
 
 
@@ -278,6 +283,7 @@ a {
 	line-height: 35px;
 }
 .about-text p {
+	padding-top: 45px;
 	font-size: 15px;
 	font-weight: 300;
 }
@@ -454,6 +460,11 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 .map {
 	width: 100%;
 	height: 200%;
+}
+.imgMoustache {
+	width:90%;
+	height: 90%;
+	margin-left:10px;
 }
 }
 @media (min-width:600px) and (max-width: 900px) {
