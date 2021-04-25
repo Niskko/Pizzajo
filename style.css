@@ -30,9 +30,7 @@ a {
 	background-color: rgba(255, 255, 255, 0.9);
 }
 .logo {
-	width: 40px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	width: 150px;
 }
 .banner {
 	background-attachment: fixed;
@@ -239,11 +237,12 @@ a {
 	float: left;
 }
 .call-overlay {
-	padding: 50px 0px;
+	padding: 45px 0px;
 	background-color: RGBA(15, 5, 20, 0.84);
 }
 .subscribe-text {
 	text-align: left;
+	padding-left: 2%;
 }
 .subscribe-text h3 {
 	margin-top: 0px;
@@ -251,7 +250,7 @@ a {
 	border-bottom: 2px solid #EB233C;
 	display: inline-block;
 	line-height: 35px;
-	text-align: left;
+	text-align: center;
 }
 .subscribe-button {
 	padding: 12px 35px;
@@ -266,6 +265,22 @@ a {
 .subscribe-button:hover {
 	text-decoration: none;
 	color: #ffffff;
+}
+.clock {
+	padding-left: 40%;
+	margin: auto;
+}
+table,
+td {
+	width: auto;
+    border: none;
+	padding-right: 5%;
+	padding-top: 1%;
+	margin: center;
+	letter-spacing: 1px;
+}
+tbody {
+	text-align: left;
 }
 /*-----Call to action Starts-------*/
 
@@ -465,6 +480,10 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	width:90%;
 	height: 90%;
 	margin-left:10px;
+}
+.clock {
+	padding-left: 15%;
+	margin: auto;
 }
 }
 @media (min-width:600px) and (max-width: 900px) {
