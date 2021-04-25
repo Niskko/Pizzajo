@@ -30,9 +30,7 @@ a {
 	background-color: rgba(255, 255, 255, 0.9);
 }
 .logo {
-	width: 40px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	width: 150px;
 }
 .banner {
 	background-attachment: fixed;
@@ -127,19 +125,6 @@ a {
 .feature-text h4 {
 	color: rgb(68, 51, 68);
 }
-table,
-td {
-    border: none;
-	margin-left: auto;
-	padding-left: 10%;
-	padding-right: 1%;
-	padding-top: 1%;
-}
-thead,
-tfoot {
-    background-color: rgba(112, 30, 30, 0.267);
-    color: #fff;
-}
 
 /*-----Features Ends-------*/
 
@@ -229,6 +214,11 @@ tfoot {
 .owl-theme .owl-controls .owl-page span {
 	background-color: #EB233C !important;
 }
+.imgMoustache{
+	margin-left:200px;
+	width: 32%;
+	height: 32%;
+}
 /*-----Testimonials Ends-------*/
 
 
@@ -247,11 +237,12 @@ tfoot {
 	float: left;
 }
 .call-overlay {
-	padding: 50px 0px;
+	padding: 45px 0px;
 	background-color: RGBA(15, 5, 20, 0.84);
 }
 .subscribe-text {
 	text-align: left;
+	padding-left: 2%;
 }
 .subscribe-text h3 {
 	margin-top: 0px;
@@ -259,7 +250,7 @@ tfoot {
 	border-bottom: 2px solid #EB233C;
 	display: inline-block;
 	line-height: 35px;
-	text-align: left;
+	text-align: center;
 }
 .subscribe-button {
 	padding: 12px 35px;
@@ -274,6 +265,22 @@ tfoot {
 .subscribe-button:hover {
 	text-decoration: none;
 	color: #ffffff;
+}
+.clock {
+	padding-left: 40%;
+	margin: auto;
+}
+table,
+td {
+	width: auto;
+    border: none;
+	padding-right: 5%;
+	padding-top: 1%;
+	margin: center;
+	letter-spacing: 1px;
+}
+tbody {
+	text-align: left;
 }
 /*-----Call to action Starts-------*/
 
@@ -291,6 +298,7 @@ tfoot {
 	line-height: 35px;
 }
 .about-text p {
+	padding-top: 45px;
 	font-size: 15px;
 	font-weight: 300;
 }
@@ -467,6 +475,15 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 .map {
 	width: 100%;
 	height: 200%;
+}
+.imgMoustache {
+	width:90%;
+	height: 90%;
+	margin-left:10px;
+}
+.clock {
+	padding-left: 15%;
+	margin: auto;
 }
 }
 @media (min-width:600px) and (max-width: 900px) {
