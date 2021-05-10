@@ -242,7 +242,7 @@ a {
 }
 .subscribe-text {
 	text-align: left;
-	padding-left: 2%;
+	padding-left: 5%;
 }
 .subscribe-text h3 {
 	margin-top: 0px;
@@ -267,7 +267,7 @@ a {
 	color: #ffffff;
 }
 .clock {
-	padding-left: 40%;
+	padding-left: 44%;
 	margin: auto;
 }
 table,
@@ -496,5 +496,20 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 }
 .logo {
 	display: none;
+}
+.subscribe-text {
+	margin-right: 25px;
+}
+.subscribe-text h3 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+}
+.clock {
+	padding-right: 44%;
+	margin: auto;
 }
 }
