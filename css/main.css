@@ -4,7 +4,7 @@
     PAGE • MENU
 ------------------------------------------ */
 .menu-nav {
-	padding-top: 74%;
+	padding-top: 87%;
 	margin: 0 auto 40px auto;
 }
 
@@ -204,16 +204,14 @@
 		margin-top: 10px;
 	}
 }
-@media (min-width:0px) and (max-width: 600px) {
-	.menu-nav {
-	padding-top: 550px;
-	margin: 0 auto 40px auto;
+@media (min-width:992px) and (max-width: 1400px) {
+.menu-nav {
+	padding-top: 65%;
 }
 }
-@media (min-width:700px) and (max-width: 800px) {
-		.menu-nav {
-	padding-top: 100px;
-	margin: 0 auto 40px auto;
+@media (min-width:1400px) and (max-width: 1700px) {
+.menu-nav {
+	padding-top: 74%;
 }
 }
 /* ------------------------------------------
