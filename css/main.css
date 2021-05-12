@@ -205,16 +205,10 @@
 	}
 }
 @media (min-width:0px) and (max-width: 600px) {
-	.menu-nav {
-	padding-top: 550px;
-	margin: 0 auto 40px auto;
+.menu-nav {
+	padding-top: 65%;
 }
-}
-@media (min-width:700px) and (max-width: 800px) {
-		.menu-nav {
-	padding-top: 100px;
-	margin: 0 auto 40px auto;
-}
+
 }
 /* ------------------------------------------
 	NAVIGATION 
