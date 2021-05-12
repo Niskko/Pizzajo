@@ -4,7 +4,7 @@
     PAGE • MENU
 ------------------------------------------ */
 .menu-nav {
-	padding-top: 74%;
+	padding-top: 82%;
 	margin: 0 auto 40px auto;
 }
 
@@ -208,7 +208,11 @@
 .menu-nav {
 	padding-top: 65%;
 }
-
+}
+@media (min-width:1400px) and (max-width: 1700px) {
+.menu-nav {
+	padding-top: 74%;
+}
 }
 /* ------------------------------------------
 	NAVIGATION 
