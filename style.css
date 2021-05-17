@@ -419,11 +419,13 @@ footer span.copyright {
 footer ul.quicklinks {
 	color: #fff;
 	margin-bottom: 0px;
+	opacity: 0;
 }
 footer ul.quicklinks a {
 	color: #fff;
 	line-height: 40px;
 	text-decoration: none;
+	opacity: 0;
 }
 ul.social-buttons {
 	margin-bottom: 0;
