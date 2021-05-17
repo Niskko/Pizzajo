@@ -1,0 +1,398 @@
+
+
+/* ------------------------------------------
+    PAGE • MENU
+------------------------------------------ */
+.menu-nav {
+	padding-top: 87%;
+	margin: 0 auto 40px auto;
+}
+
+.menu-wrap {
+	margin-bottom: 40px;
+	padding: 60px;
+	border: 1px solid #E9EAEB;
+}
+
+.menu-wrap:last-child {
+	margin-bottom: 50px;
+}
+
+.menu-title-wrap {
+	text-align: center;
+}
+
+.menu__title {
+	margin-top: 0;
+}
+
+.menu__descr {
+	text-align: center;
+	margin-bottom: 0;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 15px;
+	color: #777;
+	padding: 0;
+}
+
+.menu-category__descr,
+.menu-subcategory__descr,
+.dish__descr {
+	color: #999;
+	font-size: 13px;
+	line-height: normal;
+}
+
+.menu__price {
+	margin-top: 10px;
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--color_primary);
+}
+
+/* Category */
+.menu-category {
+	color: var(--color_primary);
+	margin: 40px 0 25px;
+}
+
+.menu-category__title {
+	color: var(--color_primary);
+	text-transform: none;
+	font-size: 20px;
+	text-align: left;
+	font-weight: 700;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+.menu-category__price {
+	/*font-family: 'Oswald', sans-serif;*/
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+}
+
+/* Subcategory */
+.menu-subcategory {
+	margin: 15px 0;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #ddd;
+}
+
+/* Dish */
+.dish-no-image,
+.dish-w-image {
+	margin: 15px 0;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #ddd;
+}
+
+.dish-w-image .dish-title-wrap {
+	margin: 0 10px;
+}
+
+.dish-no-image .dish-title-wrap {
+	margin-right: 10px;
+}
+
+.dish__title {
+	font-size: 16px;
+	line-height: normal;
+	color: #1b1b1b;
+	margin: 0;
+	text-align: left;
+}
+
+.menu-subcategory__title {
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .025rem;
+	margin: 0;
+	text-align: left;
+}
+
+.dish__descr,
+.menu-category__descr,
+.menu-subcategory__descr {
+	margin: 5px 0 0 0;
+	text-align: left;
+}
+
+.dish-quant {
+	margin-right: 15px;
+}
+
+.dish__weight {
+	color: #999;
+	font-size: 12px;
+}
+
+/* Note */
+.menu__note {
+	color: #999;
+	margin-top: 15px;
+}
+
+@media (max-width: 992px) {
+	.menu-nav {
+	padding-top: 68%;
+	}
+	.menu-wrap {
+		padding: 30px;
+	}
+
+	.menu-category,
+	.dish-info,
+	.menu-subcategory,
+	.dish-w-image,
+	.dish-no-image {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu-category__title {
+		text-align: center;
+	}
+
+	.allergens-wrap,
+	.three-dishes-wrap {
+		justify-content: center;
+	}
+
+	.dish-w-image .dish-title-wrap,
+	.dish-no-image .dish-title-wrap {
+		flex-direction: column;
+		margin: 10px 0;
+	}
+
+	.dish-image-wrap {
+		margin-right: 0;
+	}
+
+	.dish-image {
+		margin-bottom: 5px;
+	}
+
+	.m-separator {
+		display: none;
+	}
+
+	.dish-w-image .dish__descr,
+	.dish-no-image .dish__descr {
+		margin: 5px 0 0 0;
+		text-align: center;
+	}
+
+	.dish-price-wrap,
+	.dish__title {
+		text-align: center;
+		padding: 0;
+	}
+
+	.menu-category__descr,
+	.menu-subcategory__title,
+	.menu-subcategory__descr {
+		padding: 0;
+		text-align: center;
+	}
+
+	.menu-category__price,
+	.menu-subcategory__price {
+		margin-top: 10px;
+	}
+}
+@media (min-width:992px) and (max-width: 1400px) {
+.menu-nav {
+	padding-top: 65%;
+}
+}
+@media (min-width:1400px) and (max-width: 1700px) {
+.menu-nav {
+	padding-top: 74%;
+}
+}
+@media (max-width: 990px) {
+.menu-nav {
+	padding-top: 560px ;
+
+/* ------------------------------------------
+	NAVIGATION 
+------------------------------------------ */
+/*.nav {
+	padding: 15px;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.45);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav .drodown-wrap--lang span {
+	color: #FFF;
+}
+
+.nav.scroll {
+	background-color: #FFF;
+}
+
+.nav.scroll .nav__item a,
+.nav.scroll .drodown-wrap--lang span {
+	color: #2C3037;
+}
+
+/* Items */
+/*.nav .nav__item {
+	margin: 7px;
+}
+
+.nav .nav__item a {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.nav .nav__item.active>a {
+	color: var(--color_primary);
+}
+
+/* Buttons */
+/*.nav .btn {
+	min-width: auto;
+}
+
+.nav .btn:last-child {
+	margin-right: 0;
+}
+
+/* Dropdown */
+/*.nav .dropdown-wrap .dropdown {
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav .drodown-wrap--lang {
+	margin-right: 10px;
+	margin-left: 7px;
+	border: none;
+}
+
+.nav .drodown-wrap--lang:hover {
+	background-color: transparent;
+}
+
+.nav .drodown-wrap--lang span>img {
+	display: block;
+}
+
+.nav .drodown-wrap--lang .dropdown {
+	top: 35px;
+}
+
+.nav .dropdown-wrap .dropdown a {
+	color: #2C3037;
+}
+
+.nav .dropdown-wrap .dropdown a:hover {
+	background-color: #E9EAEB;
+}
+
+/* ------------------------------------------
+	  NAVIGATION • BURGER BUTTON 
+  ------------------------------------------ */
+/*.burger-button:hover {
+	background-color: #242429;
+}
+
+.burger-button__item,
+.burger-button__item.show:before,
+.burger-button__item.show:after {
+	background-color: #FFF;
+}
+
+/* SCROLL */
+/*.scroll .burger-button:hover {
+	background-color: #F8F8F9;
+}
+
+.scroll .burger-button__item,
+.scroll .burger-button__item.show:before,
+.scroll .burger-button__item.show:after {
+	background-color: #2C3037;
+}
+
+/* ------------------------------------------
+	  NAVIGATION • BURGER MENU
+  ------------------------------------------ */
+/*.burger-menu {
+	top: 70px;
+	background-color: transparent;
+	transition: opacity 0.4s ease-in-out, .35s background 0.4s ease-in-out;
+}
+
+.burger-menu__item a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.language-list {
+	border-color: #3f3f41;
+}
+
+.burger-menu__item a:hover,
+.burger-menu .dropdown-wrap span:hover,
+.burger-menu .dropdown {
+	color: #FFF;
+	background-color: #242429;
+}
+
+.burger-menu .dropdown-wrap i {
+	color: #FFF;
+}
+
+.burger-menu:before,
+.burger-menu:after {
+	position: fixed;
+	content: '';
+	background: #000;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	transition: all 0.35s ease-in-out;
+}
+
+.burger-menu:before {
+	left: -55%;
+}
+
+.burger-menu:after {
+	right: -55%;
+}
+
+.burger-menu.show {
+	background-color: #000;
+}
+
+.burger-menu.show:before {
+	left: 0;
+}
+
+.burger-menu.show:after {
+	right: 0;
+}
+
+.burger-menu-items-wrap {
+	position: relative;
+	z-index: 100;
+	opacity: 0;
+	transition: opacity 0.35s ease-in-out .35s;
+}
+
+.burger-menu.show .burger-menu-items-wrap {
+	visibility: visible;
+	opacity: 1;
+}*/
