@@ -1,0 +1,516 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+a {
+	outline: none !important;
+}
+/*-----Header & Banner Starts-------*/
+.navbar-brand {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: #ffffff;
+	font-size: 26px;
+}
+.navbar-brand:hover {
+	color: #EB233C;
+}
+.navbar-toggle {
+	background-color: rgb(255, 255, 255, 0);
+}
+.navbar-toggle .icon-bar {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.logo {
+	width: 150px;
+}
+.banner {
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/background.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bg-overlay {
+	/*padding: 280px 0 220px;*/
+	padding: 20% 0 20%;
+	background-color: RGBA(15, 5, 20, 0.84);
+}
+.banner-text h2 {
+	font-size: 50px;
+}
+.banner-text h2 span {
+	color: #EB233C;
+}
+.banner-text p {
+	font-size: 15px;
+}
+.banner-button {
+	border: rgba(204, 204, 204, 0.18) 1px solid;
+	padding: 12px 35px;
+	color: #ccc;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.banner-button:hover {
+	background-color: #ccc;
+	text-decoration: none;
+	color: #000;
+}
+.mynav {
+	transition: all 0.8s ease-in;
+	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
+}
+.mynav li a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.nav > li > a:focus, .nav > li > a {
+	color: #E1DBDB;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	background-color: #665566;
+	color: #fff;
+	border-bottom: 2px solid #EB233C;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+/*-----Header & Banner Ends-------*/
+
+/*-----Features Starts-------*/
+.features {
+	padding: 100px 0px;
+	float: left;
+	width: 100%;
+}
+.icon-box {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	margin: 0px;
+	display: inline-box;
+	border: rgba(204, 204, 204, 0.18) 1px solid;
+	;
+	border-radius: 50%;
+	padding: 0px !important;
+}
+.icon-box i {
+	line-height: 70px;
+	font-size: 25px;
+	color: #EB233C;
+}
+.feature-text {
+	padding-left: 20px;
+}
+.feature-text h4 {
+	color: rgb(68, 51, 68);
+}
+
+/*-----Features Ends-------*/
+
+
+/*-----Portfolio or Work Starts-------*/
+
+.portfolio {
+	padding: 50px 0;
+	background-color: rgba(235, 213, 235, 0.26);
+	float: left;
+	width: 100%;
+}
+.portfolio-item {
+	margin-bottom: 30px;
+}
+.img-portfolio {
+	margin: 0 auto;
+}
+.img-portfolio:hover {
+	opacity: 0.8;
+}
+.portfolio h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+}
+.view-more {
+	padding: 12px 35px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	background-color: #EB233C;
+	margin-top: 20px;
+}
+.view-more:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*-----Portfolio or Work Ends-------*/
+
+
+/*-----Testimonials Starts-------*/
+.testimonials {
+	padding: 50px 0px;
+	width: 100%;
+	float: left;
+}
+.testimonials h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+}
+.test {
+	background-color: rgba(235, 213, 235, 0.26);
+	padding: 20px 20px 10px;
+	border-radius: 10px;
+}
+.test p {
+	font-size: 15px;
+	font-weight: 300;
+}
+.test i {
+	padding: 0px 8px;
+}
+.test-img {
+	margin-top: 30px;
+}
+.test-img img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid rgba(68, 51, 68, 0.46);
+	display: inline-block;
+}
+.test-img p {
+	display: inline-block;
+	font-size: 15px;
+	padding-left: 10px;
+}
+.owl-theme .owl-controls .owl-page span {
+	background-color: #EB233C !important;
+}
+.imgMoustache{
+	margin-left:200px;
+	width: 32%;
+	height: 32%;
+}
+/*-----Testimonials Ends-------*/
+
+
+/*-----Call to action Starts-------*/
+.call-to-action {
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/background.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.call-overlay {
+	padding: 45px 0px;
+	background-color: RGBA(15, 5, 20, 0.84);
+}
+.subscribe-text {
+	text-align: left;
+	padding-left: 5%;
+}
+.subscribe-text h3 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+}
+.subscribe-button {
+	padding: 12px 35px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	background-color: #EB233C;
+	margin-top: 30px;
+}
+.subscribe-button:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+.clock {
+	padding-left: 44%;
+	margin: auto;
+}
+table,
+td {
+	width: 350px;
+    border: none;
+	padding-right: 1%;
+	padding-top: 1%;
+	margin: center;
+	letter-spacing: 1px;
+}
+tbody {
+	text-align: left;
+}
+/*-----Call to action Starts-------*/
+
+/*-----About Starts-------*/
+.about {
+	padding: 50px 0px;
+	width: 100%;
+	float: left;
+}
+.about h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+}
+.about-text p {
+	padding-top: 25px;
+	font-size: 15px;
+	font-weight: 300;
+}
+.counter-item h5 {
+	margin: 0px !important;
+	font-family: 'Work Sans', sans-serif;
+}
+.timer {
+	color: #EB233C;
+	font-size: 50px;
+	font-weight: 200;
+}
+.block {
+	padding-left: 0px !important;
+}
+/*-----About Ends-------*/
+
+
+/*-----Contact Starts-------*/
+.contact {
+	background-color: rgba(204, 204, 204, 0.15);
+	padding: 50px 0px;
+	float: left;
+	width: 100%;
+}
+.contact h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+}
+.map {
+	width:600px;
+	height:450px;
+}
+.contact-form {
+	margin-top: 45px;
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: #242424;
+	background-color: transparent;
+	background-image: none;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	border-bottom: 2px solid #EB233C;
+	resize: none;
+	margin-top: 25px;
+}
+.form-control:hover, .form-control:focus {
+	box-shadow: none;
+	border-bottom: 2px solid #242424;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #242424 !important;
+}
+ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
+color: #242424 !important;
+}
+ input::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #242424 !important;
+}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #242424 !important;
+}
+.contact-button {
+	border: none;
+	padding: 12px 35px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	background-color: #EB233C;
+	margin-top: 30px;
+}
+.address {
+	color: #242424;
+	margin-top: 150px;
+}
+.address h4 {
+	color: #EB233C;
+	font-size: 22px;
+}
+.address p {
+	font-size: 16px;
+	font-weight: 500;
+}
+.email i {
+	color: #EB233C;
+	padding-right: 10px;
+	font-weight: 400;
+	font-size: 50px;
+}
+.email {
+	padding-top: 15px;
+	font-size: 300%;
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+footer {
+	padding: 5px 0;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+footer span.copyright {
+	line-height: 40px;
+	text-transform: none;
+}
+footer ul.quicklinks {
+	color: rgb(114, 24, 24);
+	margin-bottom: 0px;
+}
+footer ul.quicklinks a {
+	color: rgb(114, 24, 24);
+	line-height: 40px;
+	text-decoration: none;
+	opacity: 0.1;
+}
+ul.social-buttons {
+	margin-bottom: 0;
+}
+ul.social-buttons li a {
+	background-color: #222;
+	border-radius: 100%;
+	color: rgb(114, 24, 24);
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	outline: 0 none;
+	transition: all 0.3s ease 0s;
+	width: 40px;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+	background-color: #EB233C;
+}
+.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+	outline: 0 none;
+}
+
+/*-----Contact Starts-------*/
+
+@media (min-width:0px) and (max-width: 600px) {
+.bg-overlay {
+	padding: 180px 0 120px;
+}
+.banner-text h2 {
+	font-size: 35px;
+}
+nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	border-bottom: none;
+	;
+}
+.features, .about, .portfolio, .contact, .testimonials {
+	padding: 50px 0px;
+}
+.email {
+	font-size: 150%;
+}
+.email i {
+	font-size: 30px;
+}
+.logo {
+	display: none;
+}
+.map {
+	width: 100%;
+	height: 200%;
+}
+.imgMoustache {
+	width:90%;
+	height: 90%;
+	margin-left:10px;
+}
+.clock {
+	padding-left: 15%;
+	margin: auto;
+}
+}
+@media (min-width:600px) and (max-width: 900px) {
+.map {
+	width: 100%;
+	height: 100%;
+}
+.address {
+	margin-top: 50px;
+}
+.logo {
+	display: none;
+}
+.subscribe-text {
+	margin-right: 25px;
+}
+.subscribe-text h3 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+}
+.clock {
+	padding-right: 44%;
+	margin: auto;
+}
+}
